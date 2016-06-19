@@ -1,2 +1,3 @@
-# angular2_helloworld
-My repository for learning Angular 2
+## Run with
+python -m SimpleHTTPServer
+
