@@ -10,11 +10,11 @@ import {CourseService} from './course.service.ts';
 @Injectable()
 class CourseComponent {
     public title: string = 'Courses';
-    courses; // = ['Course 1', 'Course 2', 'Course 3', 'Course 4']
+    courses = ['Course 1', 'Course 2', 'Course 3', 'Course 4']
 
-    constructor(courseService: CourseService) {
-        this.courses = courseService.getCourses();
-    }
+//    constructor(courseService: CourseService) {
+//       this.courses = courseService.getCourses();
+//    }
 }
 
 bootstrap(CourseComponent, [CourseService]);
